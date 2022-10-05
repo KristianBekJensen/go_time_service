@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "go_time_service/proto";
+
+package proto;
+
+service TimeService
+{
+    rpc SendMyTime (Time) returns (Hi);
+}
+
+message Time {
+    int64 time = 1;
+}
+
+message Hi {
+    string greeding = 2;
+}
