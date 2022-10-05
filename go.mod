@@ -1,4 +1,4 @@
-module github.com/kbekj/go_time_service.git
+module github.com/kbekj/go_time_service
 
 go 1.19
 
