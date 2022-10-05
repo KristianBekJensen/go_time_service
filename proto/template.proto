@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "https://github.com/kbekj/go_time_service/proto";
+option go_package = "github.com/kbekj/go_time_service/proto";
 
 package proto;
 
